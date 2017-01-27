@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:200,400,600,800);
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+
+//uses border box sizing like the old IE
+@include border-box-sizing;
+
+//Color Palate
+$white: #ffffff;
+$black: #333333;
+$green: #97d100;
+$orange: orange;
+
+//Font variables
+$fontfamily: "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$light: 200;
+$normal: 400;
+$bold: 600;
+$heavy: 800;
+
+// body
+$bodyFont: $normal 3rem $fontfamily;
+$bodyFontHead: $light 2rem $fontfamily;
+
+//Layout breakponts
+$narrow: 400px;
+$small: 650px;
+$medium: 960px;
+$wide: 1200px;
+
+//Layout variables
+
+// $default-border-radius: 0.5rem;
+// $dancingFont: $normal 2rem $fontfamily;
+// $dancingNormal: $normal 2rem $fontfamily;
+// $latoFont: $normal 2rem $fontfamily;
+// $latoNormal: $normal 2rem $fontfamily;
+// $latoBold: $normal 2rem $fontfamily;
+// $latoLight: $normal 2rem $fontfamily;
+// $latoHeavy: $normal 2rem $fontfamily;
+// $myWorkColor: white;
+// $hireMeColor: white;
+// $aboutMeColor: white;
+// $mySkillsColor: white;
+// $blue: white;
+// $blueDarkHard: white;
+// $blueDark: white;
+// $orange: white;

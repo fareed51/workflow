@@ -1,0 +1,40 @@
+{
+  "name": "workflow",
+  "version": "0.0.1",
+  "description": "workflow to work with HTML5, CSS3, JavaScript, Sass, Compass, Susy, breakpoint, bootstrap3, react, and jquery.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fareed51/workflow.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp"
+  },
+  "keywords": [
+    "workflow"
+  ],
+  "author": "syed ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fareed51/workflow/issues"
+  },
+  "homepage": "https://github.com/fareed51/workflow#readme",
+  "main": "gulp",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "browserify": "^14.0.0",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-react": "^3.1.0",
+    "gulp-webserver": "^0.9.1",
+    "jquery": "^3.1.1",
+    "jshint-stylish": "^2.2.1",
+    "lodash": "^4.17.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "reactify": "^1.1.1",
+    "sass-convert": "^0.5.2"
+  }
+}

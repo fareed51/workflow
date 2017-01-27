@@ -1,0 +1,31 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: $bodyFont;
+  color: $black;
+}
+
+#{headings()} {
+  font: $bodyFontHead;
+  color: $green;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  @include container(95%);
+
+  @include breakpoint($wide) {
+    @include container(75%);
+  }
+}
+
+$susy: (columns: 12, container: 60em, gutters: 1 / 4, gutter-position: inside, debug: (image: hide, color: rgba(#66f, 0.25), output: background, toggle: top right));
